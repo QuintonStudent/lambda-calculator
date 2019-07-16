@@ -17,11 +17,11 @@ const Numbers = () => {
         component matching the name on the provided file. Pass
         it any props needed by the child component*/}
 
-        {/*{numberState.map( item => <button>{item}</button> )}*/}
-
-      <NumberButton
-      test = {numberState[0]}
-      />
+      {numberState.map( item =>
+        <NumberButton
+          test = {item}
+        />
+      )}
     </div>
   );
 };

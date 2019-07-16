@@ -17,9 +17,11 @@ const Specials = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
 
-      <SpecialButton
-        test3 = {specialState[0]}
-      />
+      {specialState.map( item =>
+        <SpecialButton
+          test3 = {item}
+        />
+      )}
     </div>
   );
 };
