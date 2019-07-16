@@ -7,7 +7,7 @@ import Operators from './components/ButtonComponents/OperatorButtons/Operators.j
 import Specials from './components/ButtonComponents/SpecialButtons/Specials.js'
 
 // Logo has already been provided for you. Do the same for the remaining components
-import Logo from "./components/DisplayComponents/Logo";
+import Logo from "./components/DisplayComponents/Logo.js";
 
 function App() {
   // STEP 5 - After you get the components displaying using the provided data file, write your state hooks here.
