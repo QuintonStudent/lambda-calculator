@@ -4,8 +4,7 @@ const OperatorButton = props => {
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      {console.log(props.test2)}
-      <button>{props.test2}</button>
+      <button className='operatorButton'>{props.test2}</button>
     </>
   );
 };
